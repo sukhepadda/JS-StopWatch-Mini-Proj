@@ -1,54 +1,61 @@
-body{
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 200px;
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 200px;
 }
-h1{
-    font-size: 52px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color:  rgb(255, 0, 0);
-
+h1 {
+  font-size: 52px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: rgb(255, 0, 0);
 }
-span{
-    font-size: 42px;
-    color: rgb(0, 255, 0);
+span {
+  font-size: 42px;
 }
-span:nth-child(5){
-    color: red;
+#hrs {
+  color: rgb(0, 255, 0);
 }
-div{
-    margin-top: 20px;
+#min {
+  color: rgb(49, 240, 49);
 }
-button{
-    margin: 10px;
-    background: transparent;
-    width: 80px;
-    height: 35px;
-    border-radius:20px;
-    font-size: 16px;
-    font-weight: 600;    
+#sec {
+  color: rgb(88, 202, 88);
 }
-button:nth-child(1){
-    color: rgb(0, 255, 0);
-    border: rgb(0, 255, 0) 3px solid;
+#milisec {
+  color: red;
 }
-button:nth-child(2){
-    color: red;
-    border: red 3px solid;
+div {
+  margin-top: 20px;
 }
-button:nth-child(3){
-    color:white;
-    border: white 3px solid;
+button {
+  margin: 10px;
+  background: transparent;
+  width: 80px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
 }
-button:hover{
-    background-color: white;
-    border: none;
-    cursor: pointer;
+button:nth-child(1) {
+  color: rgb(0, 255, 0);
+  border: rgb(0, 255, 0) 3px solid;
 }
-button:nth-child(3):hover{
-    color: black;
+button:nth-child(2) {
+  color: red;
+  border: red 3px solid;
 }
-button:focus{
-    outline:none;
+button:nth-child(3) {
+  color: white;
+  border: white 3px solid;
+}
+button:hover {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+button:nth-child(3):hover {
+  color: black;
+}
+button:focus {
+  outline: none;
 }
